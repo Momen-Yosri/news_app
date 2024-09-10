@@ -6,6 +6,8 @@ class Source {
   String? description;
   String? url;
   String? category;
+  String? code;
+  String? message;
   String? language;
   String? country;
 
@@ -17,6 +19,8 @@ class Source {
     this.category,
     this.language,
     this.country,
+    this.code,
+    this.message,
   });
 
   @override
@@ -32,6 +36,8 @@ class Source {
         category: data['category'] as String?,
         language: data['language'] as String?,
         country: data['country'] as String?,
+        code: data['code'] as String?,
+        message: data['message'] as String?,
       );
 
   Map<String, dynamic> toMap() => {
@@ -42,6 +48,8 @@ class Source {
         'category': category,
         'language': language,
         'country': country,
+        'code': code,
+        'message': message,
       };
 
   /// `dart:convert`

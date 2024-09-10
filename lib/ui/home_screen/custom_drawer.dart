@@ -12,8 +12,8 @@ enum MenuTap {
 }
 
 class CustomDrawer extends StatefulWidget {
- final Function onSelect;
-CustomDrawer({super.key,required this.onSelect});
+  final Function onSelect;
+  CustomDrawer({super.key, required this.onSelect});
 
   @override
   State<CustomDrawer> createState() => _CustomDrawerState();
@@ -61,7 +61,5 @@ class _CustomDrawerState extends State<CustomDrawer> {
         ],
       ),
     );
-
   }
-
 }

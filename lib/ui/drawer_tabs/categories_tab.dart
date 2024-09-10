@@ -11,7 +11,7 @@ class CategoriesTab extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.all(35.0),
       child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           Text(
             "Pick your category\nof interest",

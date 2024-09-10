@@ -4,12 +4,9 @@ import 'source.dart';
 
 class SourcesResponse {
   String? status;
-  String? code;
-  String? message;
-  
   List<Source>? sources;
 
-  SourcesResponse({this.status, this.sources,this.code, this.message});
+  SourcesResponse({this.status, this.sources,});
 
   @override
   String toString() => 'SourcesResponse(status: $status, sources: $sources)';
