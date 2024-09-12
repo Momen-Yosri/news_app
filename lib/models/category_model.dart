@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class CategoryModel {
-  String titleID;
+   String titleID;
   String title;
   String imagePath;
   Color backGroundColor;

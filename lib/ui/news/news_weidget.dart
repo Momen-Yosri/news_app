@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:news_app/api/api_manger.dart';
 import 'package:news_app/api/models/sources/source.dart';
+import 'package:news_app/ui/news/detailed_news.dart';
 import 'package:news_app/ui/news/news_item.dart';
 
 class NewsWeidget extends StatefulWidget {
@@ -40,4 +41,5 @@ class _NewsWeidgetState extends State<NewsWeidget> {
           );
         });
   }
+  
 }
